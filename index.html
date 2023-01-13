@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- ---nightmode icon--- -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+    <!-- --footer-- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- ---- zooming slider img----- -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- ----contact me---- -->
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("37v9Snj9DUZLMTWRs");
+        })();
+    </script>
+
+    <title>Expore More</title>
+
+    <!-- Demo styles -->
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+
+        }
+
+        body {
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper {
+            width: 1000px;
+            height: 80.5%;
+            margin-top: 20px;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: transparent;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+    </style>
+    
+
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <h3>PHOTOGRAPHY</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="https://asterix014.github.io/contactMe/">Contact Us</a></li>
+                <li><a href="https://asterix014.github.io/aboutme.github.io/" target="_blank">About us</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/DSC00388.JPG"></div>
+            <div class="swiper-slide"><img src="./img/DSC00365.JPG"></div>
+            <div class="swiper-slide"><img src="./img/bg-2.jpg"></div>
+            <div class="swiper-slide"><img src="./img/IMG_3021.jpg"></div>
+            <div class="swiper-slide"><img src="./img/DSC00831.JPG"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <br>
+
+    <br>
+    <section>
+        <div class="title">
+            <h1>Photography</h1>
+            <p>Two people make one memory photographer and the viewer
+            </p>
+        </div>
+        <div class="div">
+            <img src="./img/1650522809712.jpg" alt="">
+            <img src="./img/1646315656443.jpg" alt="">
+            <img src="./img/DSC00507.JPG" alt="">
+            <img src="./img/DSC00691.JPG" alt="">
+            <img src="./img/DSC00702.JPG" alt="">
+            <img src="./img/DSC00719.JPG" alt="">
+        </div>
+
+        <!-- ----slider zooming img---- -->
+
+        <div class="containers">
+            <div id="slide">
+                <div class="item" style="background-image: url(./img/slider-1.JPG);">
+                    <div class="content">
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(./img/slider-2.JPG);">
+                    <div class="content">
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(./img/slider-3.JPG);">
+                    <div class="content">
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(./img/slider-4.JPG);">
+                    <div class="content">
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(./img/slider-5.JPG);">
+                    <div class="content">
+                    </div>
+                </div>
+                <div class="item" style="background-image: url(./img/slider-6.JPG);">
+                    <div class="content">
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+                <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+            </div>
+        </div>
+
+        <div class="div2">
+            <img src="./img/img-1.JPG" alt="">
+            <img src="./img/img-2.JPG" alt="">
+            <img src="./img/img-3.JPG" alt="">
+            <img src="./img/img-4.JPG" alt="">
+            <img src="./img/img-5.JPG" alt="">
+            <img src="./img/img-6.JPG" alt="">
+            <img src="./img/img-7.JPG" alt="">
+            <img src="./img/img-8.JPG" alt="">
+            <img src="./img/img-9.jpg" alt="">
+        </div>
+
+        <div class="title1">
+            <h1>Deras Dam</h1>
+            <p>Memorable Moments</p>
+        </div>
+        
+        <div class="div-video">
+           <img src="./img/DSC00831.JPG" alt="">
+           <img src="./img/DSC00834.JPG" alt="">
+           <img src="./img/DSC00860.JPG" alt="">
+        </div>
+        <div class="div1">
+            <img src="./img/DSC00352.JPG" alt="">
+            <img src="./img/1646315645259 (1).jpg" alt="">
+            <img src="./img/DSC00488 (1).jpg" alt="">
+            <img src="./img/IMG_3021.jpg" alt="">
+            <img src="./img/1650522809503.jpg" alt="">
+            <img src="./img/DSC00351.JPG" alt="">
+        </div>
+
+    </section>
+    <br>
+    <br>
+    <div id="div9" class="contact">
+        <h2>Contact</h2>
+        <small>Give Some Suggestion</small>
+        <div class="contact-img">
+            <img src="./img/avatar.png" >
+          </div>
+        <form onsubmit="sendEmail(); reset(); return false;">
+            <input type="text" placeholder="Your Name" id="name" required>
+            <input type="email" placeholder="Email id" id="email" required>
+            <input type="text" placeholder="Phone no." id="phone">
+            <textarea id="message" placeholder="Message" cols="30" rows="10"></textarea>
+            <button type="submit">Send</button>
+        </form>
+      
+    </div>
+
+    </div>
+
+    <div>
+        <footer>
+            <footer class="footer">
+                <div class="footer-content">
+                    <h3>PHOTOGRAPHY</h3>
+                    <small>SHUBHAM NAYAK</small>
+                    <ul class="socials">
+                        <li><a href="https://www.facebook.com/people/Shubham-Nayak/100034777105672/?mibextid=ZbWKwL"
+                                target="_blank"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/shubham-nayak-579475253" target="_blank"><i
+                                    class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href="https://github.com/asterix014" target="_blank"><i
+                                    class="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.instagram.com/_asteri_x_/" target="_blank"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p>copyright &copy;2022 Photography. designed by <span>SHUBHAM NAYAK</span></p>
+                </div>
+            </footer>
+        </footer>
+
+
+        <div class="socialbar">
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank" class="facebook"><ion-icon
+                            name="logo-facebook"></ion-icon></a></li>
+                <li><a href="https://www.linkedin.com" target="_blank" class="linkedin"><ion-icon
+                            name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://github.com/asterix014" target="_blank" class="github"><ion-icon
+                            name="logo-github"></ion-icon></a></li>
+                <li><a href="https://www.instagram.com/_asteri_x_/" target="_blank" class="instagram"><ion-icon
+                            name="logo-instagram"></ion-icon></a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js">
+    </script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            loop: true,
+
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+
+
+        });
+        document.getElementById('next').onclick = function () {
+            let lists = document.querySelectorAll('.item');
+            document.getElementById('slide').appendChild(lists[0]);
+        }
+        document.getElementById('prev').onclick = function () {
+            let lists = document.querySelectorAll('.item');
+            document.getElementById('slide').prepend(lists[lists.length - 1]);
+        }
+
+
+            function sendEmail() {
+
+                Email.send({
+                    SecureToken: "f86da67e-56f1-4e36-8c3e-aee6f0fb5eab",
+                    To: 'shubhamnayak446@gmail.com',
+                    From: "shubhamnayakrb014@gmail.com",
+                    Subject: "New Contact Form Enquiry",
+                    Body: "Name: " + document.getElementById("name").value +
+                        "<br> Email: " + document.getElementById("email").value
+                        + "<br/> Phone no: " + document.getElementById("phone").value
+                        + "<br/> Message: " + document.getElementById("message").value
+                }).then(
+                    message => alert("Message Sent Succesfully")
+                );
+            }
+    </script>
+
+    </script>
+</body>
+
+</html>
